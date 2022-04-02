@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>gui.AppWindow</OriginalElement>
+  <nodes>
+    <node x="369.26408450704207" y="882.5892915773904">test.AppTest</node>
+    <node x="1476.1602112676055" y="534.0">mysql.SetExcel_mysql_test</node>
+    <node x="729.2640845070421" y="0.0">data.GiveTestPaper</node>
+    <node x="664.5371812707531" y="882.5892915773904">test.AppTest_mysql</node>
+    <node x="1089.264084507042" y="417.5">data.Problem</node>
+    <node x="0.0" y="0.0">view.TestPaperView</node>
+    <node x="959.8102780344641" y="882.5892915773904">gui.AppWindow</node>
+    <node x="369.26408450704207" y="143.0">data.RamdomInitTestPaper</node>
+    <node x="729.2640845070421" y="143.0">data.OrderTestPaper</node>
+    <node x="1476.1602112676055" y="727.5">view.ImageJPanel</node>
+    <node x="0.0" y="712.0">view.HandleTestPaper</node>
+    <node x="2274.0115864618137" y="314.5">view.ShowImageDialog</node>
+    <node x="1089.264084507042" y="143.0">mysql.OrderTestPaper_mysql</node>
+    <node x="1484.0115864618133" y="132.0">data.TeacherTwe</node>
+    <node x="2222.0115864618137" y="118.5">mysql.TeacherThree</node>
+    <node x="1476.1602112676055" y="314.5">data.SetExcel</node>
+    <node x="369.26408450704207" y="521.0">data.TestPaper</node>
+    <node x="1863.2633114838998" y="727.5">view.IntegrationView</node>
+    <node x="733.2640845070421" y="521.0">data.GetGiveTestPaper</node>
+    <node x="2249.0115864618137" y="457.5">view.ShowImageDialog.GiveImage</node>
+    <node x="1853.0115864618133" y="2.5">data.Teacher</node>
+    <node x="1853.0115864618133" y="132.0">data.TeacherOne</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="data.OrderTestPaper" target="data.GiveTestPaper" relationship="REALIZATION">
+      <point x="0.0" y="-177.5" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="data.RamdomInitTestPaper" target="data.GiveTestPaper" relationship="REALIZATION">
+      <point x="0.0" y="-177.5" />
+      <point x="539.2640845070421" y="118.0" />
+      <point x="899.2640845070421" y="118.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="mysql.TeacherThree" target="data.Teacher" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="2396.5115864618137" y="93.5" />
+      <point x="2027.5115864618133" y="93.5" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="view.ShowImageDialog.GiveImage" target="view.ShowImageDialog" relationship="INNER_CLASS">
+      <point x="0.0" y="-46.5" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="data.TeacherOne" target="data.Teacher" relationship="REALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="33.0" />
+    </edge>
+    <edge source="mysql.OrderTestPaper_mysql" target="data.GiveTestPaper" relationship="REALIZATION">
+      <point x="0.0" y="-99.5" />
+      <point x="1259.264084507042" y="118.0" />
+      <point x="899.2640845070421" y="118.0" />
+      <point x="0.0" y="46.5" />
+    </edge>
+    <edge source="data.TeacherTwe" target="data.Teacher" relationship="REALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="1658.5115864618133" y="93.5" />
+      <point x="2027.5115864618133" y="93.5" />
+      <point x="0.0" y="33.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.47532556545579163" showDependencies="false" x="1449.0" y="559.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
